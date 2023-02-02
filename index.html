@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./app.css" />
+
+    <title>Calculator app</title>
+  </head>
+  <body>
+    <section class="calc theme1">
+      <div class="headingAndThemes">
+        <h2 class="heading">calc</h2>
+        <div class="themes">
+          <span class="themeLabel">THEME</span>
+          <div class="themeSwitch">
+            <div class="labelNums">
+              <span>1</span>
+              <span>2</span>
+              <span>3</span>
+            </div>
+            <div class="switchContainer">
+              <div class="switch"></div>
+              <div class="pos"></div>
+              <div class="pos"></div>
+              <div class="pos"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="calcContent">
+        <input type="text" class="inputAndResult" placeholder="0" disabled="true">
+        <div class="operations">
+          <div>
+            <div class="op num">7</div>
+            <div class="op num">8</div>
+            <div class="op num">9</div>
+            <div class="op del">DEL</div>
+          </div>
+          <div>
+            <div class="op num">4</div>
+            <div class="op num">5</div>
+            <div class="op num">6</div>
+            <div class="op plus">+</div>
+          </div>
+          <div>
+            <div class="op num">1</div>
+            <div class="op num">2</div>
+            <div class="op num">3</div>
+            <div class="op minus">-</div>
+          </div>
+          <div>
+            <div class="op point">.</div>
+            <div class="op num">0</div>
+            <div class="op divide">/</div>
+            <div class="op multiply">x</div>
+          </div>
+          <div>
+            <div class="op reset">RESET</div>
+            <div class="op equal">=</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
